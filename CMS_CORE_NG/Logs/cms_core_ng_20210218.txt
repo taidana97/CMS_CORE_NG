@@ -1,0 +1,2720 @@
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 3:54:31 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16392
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 3:54:44 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16392
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 3:55:10 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 478"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "ab085747-35cc-4372-8b08-7dd92ab75843"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "80000007-0006-ff00-b63f-84710c7967bb"
+RequestPath : "/api/v1/profile/GetUserProfile/admin"
+SpanId : "|b50649bc-4c9b264e3a9699d9."
+TraceId : "b50649bc-4c9b264e3a9699d9"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16392
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 3:55:18 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "80000009-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/admin/home"
+SpanId : "|b50649bd-4c9b264e3a9699d9."
+TraceId : "b50649bd-4c9b264e3a9699d9"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16392
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 3:55:39 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "bc5ef28a-9ee5-4ea0-9b49-829d3a4f2de1"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "8000000d-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|b50649ca-4c9b264e3a9699d9."
+TraceId : "b50649ca-4c9b264e3a9699d9"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16392
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 3:58:48 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "An error occurred during a cryptographic operation."
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86"
+InnerException : "System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharArray(Char[] inArray, Int32 offset, Int32 length)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input, Int32 offset, Int32 count)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)"
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "ce7eb2a6-495d-47cc-aa99-092f0e58b4c2"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions (CMS_CORE_NG)"
+RequestId : "80000013-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|b50649d2-4c9b264e3a9699d9."
+TraceId : "b50649d2-4c9b264e3a9699d9"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16392
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 3:58:48 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000013-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|b50649d2-4c9b264e3a9699d9."
+TraceId : "b50649d2-4c9b264e3a9699d9"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16392
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.Security.Cryptography.CryptographicException: An error occurred during a cryptographic operation.
+ ---> System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharArray(Char[] inArray, Int32 offset, Int32 length)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input, Int32 offset, Int32 count)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - An error occurred during a cryptographic operation.Source - Microsoft.AspNetCore.DataProtection.AbstractionsInnerException - System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharArray(Char[] inArray, Int32 offset, Int32 length)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input, Int32 offset, Int32 count)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 3:59:02 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The provided payload cannot be decrypted because it was not protected with this protection provider."
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection"
+ActionId : "ce7eb2a6-495d-47cc-aa99-092f0e58b4c2"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions (CMS_CORE_NG)"
+RequestId : "80000006-0001-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|b50649d5-4c9b264e3a9699d9."
+TraceId : "b50649d5-4c9b264e3a9699d9"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16392
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 3:59:02 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000006-0001-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|b50649d5-4c9b264e3a9699d9."
+TraceId : "b50649d5-4c9b264e3a9699d9"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16392
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.Security.Cryptography.CryptographicException: The provided payload cannot be decrypted because it was not protected with this protection provider.
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The provided payload cannot be decrypted because it was not protected with this protection provider.Source - Microsoft.AspNetCore.DataProtectionInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:00:53 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The provided payload cannot be decrypted because it was not protected with this protection provider."
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection"
+ActionId : "ce7eb2a6-495d-47cc-aa99-092f0e58b4c2"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions (CMS_CORE_NG)"
+RequestId : "80000017-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|b50649da-4c9b264e3a9699d9."
+TraceId : "b50649da-4c9b264e3a9699d9"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16392
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:00:53 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000017-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|b50649da-4c9b264e3a9699d9."
+TraceId : "b50649da-4c9b264e3a9699d9"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16392
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.Security.Cryptography.CryptographicException: The provided payload cannot be decrypted because it was not protected with this protection provider.
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The provided payload cannot be decrypted because it was not protected with this protection provider.Source - Microsoft.AspNetCore.DataProtectionInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:01:55 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 11804
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:02:03 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 11804
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:02:13 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The provided payload cannot be decrypted because it was not protected with this protection provider."
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection"
+ActionId : "7bf735ee-8d7a-4c27-99d7-93d79a6a68ef"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions (CMS_CORE_NG)"
+RequestId : "80000017-0002-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|ee135a5d-41d2000059cfc7d5."
+TraceId : "ee135a5d-41d2000059cfc7d5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 11804
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:02:24 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000017-0002-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|ee135a5d-41d2000059cfc7d5."
+TraceId : "ee135a5d-41d2000059cfc7d5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 11804
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.Security.Cryptography.CryptographicException: The provided payload cannot be decrypted because it was not protected with this protection provider.
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The provided payload cannot be decrypted because it was not protected with this protection provider.Source - Microsoft.AspNetCore.DataProtectionInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:02:52 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The provided payload cannot be decrypted because it was not protected with this protection provider."
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection"
+ActionId : "7bf735ee-8d7a-4c27-99d7-93d79a6a68ef"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions (CMS_CORE_NG)"
+RequestId : "8000001b-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|ee135a5e-41d2000059cfc7d5."
+TraceId : "ee135a5e-41d2000059cfc7d5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 11804
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:03:15 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 15728
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:03:23 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 15728
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:03:42 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "An error occurred during a cryptographic operation."
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86"
+InnerException : "System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharArray(Char[] inArray, Int32 offset, Int32 length)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input, Int32 offset, Int32 count)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)"
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "f382dba9-f413-4c83-8f3f-e1a685c33d92"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions (CMS_CORE_NG)"
+RequestId : "80000002-0004-fc00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|134ca119-4a4027a07932d5dd."
+TraceId : "134ca119-4a4027a07932d5dd"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 15728
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:05:02 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The payload was invalid."
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection"
+ActionId : "f382dba9-f413-4c83-8f3f-e1a685c33d92"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions (CMS_CORE_NG)"
+RequestId : "80000008-0004-fc00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|134ca11f-4a4027a07932d5dd."
+TraceId : "134ca11f-4a4027a07932d5dd"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 15728
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:14:46 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "An error occurred during a cryptographic operation."
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions(SendGridOptions options) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\EmailSettingsController.cs:line 86"
+InnerException : "System.FormatException: Malformed input: 69 is an invalid input length.
+   at Microsoft.Extensions.Internal.WebEncoders.GetNumBase64PaddingCharsToAddForDecode(Int32 inputLength)
+   at Microsoft.Extensions.Internal.WebEncoders.GetArraySizeRequiredToDecode(Int32 count)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input, Int32 offset, Int32 count)
+   at Microsoft.Extensions.Internal.WebEncoders.Base64UrlDecode(String input)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)"
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "f382dba9-f413-4c83-8f3f-e1a685c33d92"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.EmailSettingsController.UpdateSengridOptions (CMS_CORE_NG)"
+RequestId : "8000000a-0001-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/EmailSettings/UpdateSengridOptions"
+SpanId : "|134ca122-4a4027a07932d5dd."
+TraceId : "134ca122-4a4027a07932d5dd"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 15728
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:33:34 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 1148
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:33:41 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 1148
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:34:11 CH +07:00 | Level - Warning |
+----------------------------------------------------------------------
+role : "Customer"
+EventId : { Id: 5 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "67f6d6ef-66d3-4c2c-bd2b-ef1407122261"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.EditUser (CMS_CORE_NG)"
+RequestId : "80000022-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/6306ea03-b7c7-40ae-b650-15b80a96f1ea"
+SpanId : "|f7a7d2a2-4fffde965a07c957."
+TraceId : "f7a7d2a2-4fffde965a07c957"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 1148
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:34:11 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "67f6d6ef-66d3-4c2c-bd2b-ef1407122261"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.EditUser (CMS_CORE_NG)"
+RequestId : "80000022-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/6306ea03-b7c7-40ae-b650-15b80a96f1ea"
+SpanId : "|f7a7d2a2-4fffde965a07c957."
+TraceId : "f7a7d2a2-4fffde965a07c957"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 1148
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:34:50 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "0c63b297-5a9c-4bbf-8b87-7b508020e26a"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000001f-0000-ff00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|f7a7d2a5-4fffde965a07c957."
+TraceId : "f7a7d2a5-4fffde965a07c957"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 1148
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:34:50 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Could not find file 'D:\C#\CMS_CORE_NG\CMS_CORE_NG\EmailTemplates\ResultPassword.html'."
+StackTrace : "   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at EmailService.EmailSvc.BuildEmailBody(String message, String templateName, String subject) in D:\C#\CMS_CORE_NG\EmailService\EmailSvc.cs:line 75"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "0c63b297-5a9c-4bbf-8b87-7b508020e26a"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000001f-0000-ff00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|f7a7d2a5-4fffde965a07c957."
+TraceId : "f7a7d2a5-4fffde965a07c957"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 1148
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:36:25 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13872
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:36:34 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13872
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:37:11 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "aaf6032e-620c-4f02-a0ee-77e71eb488b5"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000000e-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|35186f35-477fa48af701dc5a."
+TraceId : "35186f35-477fa48af701dc5a"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13872
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:37:42 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Could not find file 'D:\C#\CMS_CORE_NG\CMS_CORE_NG\EmailTemplates\ResultPassword.html'."
+StackTrace : "   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at EmailService.EmailSvc.BuildEmailBody(String message, String templateName, String subject) in D:\C#\CMS_CORE_NG\EmailService\EmailSvc.cs:line 75"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "aaf6032e-620c-4f02-a0ee-77e71eb488b5"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000000e-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|35186f35-477fa48af701dc5a."
+TraceId : "35186f35-477fa48af701dc5a"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13872
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:37:56 CH +07:00 | Level - Warning |
+----------------------------------------------------------------------
+role : "Customer"
+EventId : { Id: 5 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "1c9a3137-0910-4e98-b129-68854f8e346e"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.EditUser (CMS_CORE_NG)"
+RequestId : "80000023-0000-ff00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/6306ea03-b7c7-40ae-b650-15b80a96f1ea"
+SpanId : "|35186f37-477fa48af701dc5a."
+TraceId : "35186f37-477fa48af701dc5a"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13872
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:37:56 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "1c9a3137-0910-4e98-b129-68854f8e346e"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.EditUser (CMS_CORE_NG)"
+RequestId : "80000023-0000-ff00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/6306ea03-b7c7-40ae-b650-15b80a96f1ea"
+SpanId : "|35186f37-477fa48af701dc5a."
+TraceId : "35186f37-477fa48af701dc5a"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13872
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:38:03 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "aaf6032e-620c-4f02-a0ee-77e71eb488b5"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000010-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|35186f3a-477fa48af701dc5a."
+TraceId : "35186f3a-477fa48af701dc5a"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13872
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:38:04 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Could not find file 'D:\C#\CMS_CORE_NG\CMS_CORE_NG\EmailTemplates\ResultPassword.html'."
+StackTrace : "   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at EmailService.EmailSvc.BuildEmailBody(String message, String templateName, String subject) in D:\C#\CMS_CORE_NG\EmailService\EmailSvc.cs:line 75"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "aaf6032e-620c-4f02-a0ee-77e71eb488b5"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000010-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|35186f3a-477fa48af701dc5a."
+TraceId : "35186f3a-477fa48af701dc5a"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13872
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:42:56 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 10824
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:43:03 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 10824
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:54:51 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "9863637b-7aef-4705-ba27-263b74e3bdd2"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000001c-0005-ff00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|ea5c3e03-4c11abf04eb88795."
+TraceId : "ea5c3e03-4c11abf04eb88795"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 10824
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:54:51 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Could not find file 'D:\C#\CMS_CORE_NG\CMS_CORE_NG\EmailTemplates\ResultPassword.html'."
+StackTrace : "   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at EmailService.EmailSvc.BuildEmailBody(String message, String templateName, String subject) in D:\C#\CMS_CORE_NG\EmailService\EmailSvc.cs:line 75"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "9863637b-7aef-4705-ba27-263b74e3bdd2"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000001c-0005-ff00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|ea5c3e03-4c11abf04eb88795."
+TraceId : "ea5c3e03-4c11abf04eb88795"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 10824
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:55:43 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13792
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:55:52 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13792
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:56:10 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "80000024-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|c2b22745-499f4969fefc0b69."
+TraceId : "c2b22745-499f4969fefc0b69"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13792
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:56:10 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "8000000e-0007-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/User/GetUsers"
+SpanId : "|c2b22747-499f4969fefc0b69."
+TraceId : "c2b22747-499f4969fefc0b69"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13792
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:56:18 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "80000031-0000-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/User"
+SpanId : "|c2b22749-499f4969fefc0b69."
+TraceId : "c2b22749-499f4969fefc0b69"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13792
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:56:25 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "327633dd-fa6e-4f04-863f-4ad4d98cf534"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000032-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|c2b2274b-499f4969fefc0b69."
+TraceId : "c2b2274b-499f4969fefc0b69"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13792
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:56:36 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "6f22a0b3-d77e-4f68-9fe6-714b8fc1b4cd"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000026-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|c2b22751-499f4969fefc0b69."
+TraceId : "c2b22751-499f4969fefc0b69"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13792
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:56:37 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Could not find file 'D:\C#\CMS_CORE_NG\CMS_CORE_NG\EmailTemplates\ResultPassword.html'."
+StackTrace : "   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at EmailService.EmailSvc.BuildEmailBody(String message, String templateName, String subject) in D:\C#\CMS_CORE_NG\EmailService\EmailSvc.cs:line 75"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "6f22a0b3-d77e-4f68-9fe6-714b8fc1b4cd"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000026-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|c2b22751-499f4969fefc0b69."
+TraceId : "c2b22751-499f4969fefc0b69"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13792
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:57:33 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "6f22a0b3-d77e-4f68-9fe6-714b8fc1b4cd"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000000a-0002-fc00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|c2b22753-499f4969fefc0b69."
+TraceId : "c2b22753-499f4969fefc0b69"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13792
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:57:55 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Could not find file 'D:\C#\CMS_CORE_NG\CMS_CORE_NG\EmailTemplates\ResultPassword.html'."
+StackTrace : "   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at EmailService.EmailSvc.BuildEmailBody(String message, String templateName, String subject) in D:\C#\CMS_CORE_NG\EmailService\EmailSvc.cs:line 75"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "6f22a0b3-d77e-4f68-9fe6-714b8fc1b4cd"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000000a-0002-fc00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|c2b22753-499f4969fefc0b69."
+TraceId : "c2b22753-499f4969fefc0b69"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 13792
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:59:08 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16584
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:59:17 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16584
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:59:26 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "66aa36ca-a08e-4be2-97aa-3dca76004035"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000004-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|e71e9017-4966f538b47da655."
+TraceId : "e71e9017-4966f538b47da655"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16584
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:59:26 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Could not find file 'D:\C#\CMS_CORE_NG\CMS_CORE_NG\EmailTemplates\ResultPassword.html'."
+StackTrace : "   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at EmailService.EmailSvc.BuildEmailBody(String message, String templateName, String subject) in D:\C#\CMS_CORE_NG\EmailService\EmailSvc.cs:line 72"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "66aa36ca-a08e-4be2-97aa-3dca76004035"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000004-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|e71e9017-4966f538b47da655."
+TraceId : "e71e9017-4966f538b47da655"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 16584
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:59:47 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 18260
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 4:59:55 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 18260
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:00:08 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "852dc0f3-a002-45d7-8bb5-de069d7ecc09"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000002a-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|2b0d247c-4396182cb6a3224b."
+TraceId : "2b0d247c-4396182cb6a3224b"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 18260
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:01:12 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 14128
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:01:20 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 14128
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:02:03 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "35fc8680-7492-4bc6-998e-ab14a9dba979"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000002c-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|58853589-48604157ed96dab7."
+TraceId : "58853589-48604157ed96dab7"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 14128
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:04:32 CH +07:00 | Level - Warning |
+----------------------------------------------------------------------
+role : "Customer"
+EventId : { Id: 5 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "01272940-5d35-425e-9bc9-8f66f68a6c3d"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.EditUser (CMS_CORE_NG)"
+RequestId : "80000006-0002-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/6306ea03-b7c7-40ae-b650-15b80a96f1ea"
+SpanId : "|5885358b-48604157ed96dab7."
+TraceId : "5885358b-48604157ed96dab7"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 14128
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:04:33 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "01272940-5d35-425e-9bc9-8f66f68a6c3d"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.EditUser (CMS_CORE_NG)"
+RequestId : "80000006-0002-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/6306ea03-b7c7-40ae-b650-15b80a96f1ea"
+SpanId : "|5885358b-48604157ed96dab7."
+TraceId : "5885358b-48604157ed96dab7"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 14128
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:04:37 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "35fc8680-7492-4bc6-998e-ab14a9dba979"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000039-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|5885358e-48604157ed96dab7."
+TraceId : "5885358e-48604157ed96dab7"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 14128
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:05:45 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "35fc8680-7492-4bc6-998e-ab14a9dba979"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000003b-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|58853590-48604157ed96dab7."
+TraceId : "58853590-48604157ed96dab7"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 14128
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:17:01 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 18988
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:17:10 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 18988
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:17:28 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "b966a6de-15b2-4ec3-94ea-1ba1b51ef6ff"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000014-0007-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|ace78f2-4f38182b68cba7ae."
+TraceId : "ace78f2-4f38182b68cba7ae"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 18988
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:18:13 CH +07:00 | Level - Warning |
+----------------------------------------------------------------------
+role : "Customer"
+EventId : { Id: 5 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "25389c7b-9044-464f-9d85-693f2f9c7062"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.EditUser (CMS_CORE_NG)"
+RequestId : "80000037-0002-ff00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/6306ea03-b7c7-40ae-b650-15b80a96f1ea"
+SpanId : "|ace78f4-4f38182b68cba7ae."
+TraceId : "ace78f4-4f38182b68cba7ae"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 18988
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:18:13 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "25389c7b-9044-464f-9d85-693f2f9c7062"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.EditUser (CMS_CORE_NG)"
+RequestId : "80000037-0002-ff00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/6306ea03-b7c7-40ae-b650-15b80a96f1ea"
+SpanId : "|ace78f4-4f38182b68cba7ae."
+TraceId : "ace78f4-4f38182b68cba7ae"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 18988
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:18:18 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "b966a6de-15b2-4ec3-94ea-1ba1b51ef6ff"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000041-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|ace78f7-4f38182b68cba7ae."
+TraceId : "ace78f7-4f38182b68cba7ae"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 18988
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:22:21 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "781803e2-8ba2-47ec-bcc5-8e91e3ef8f6d"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000047-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|f7463f63-42b0aa16099f81f7."
+TraceId : "f7463f63-42b0aa16099f81f7"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 18344
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:22:22 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 18344
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:22:30 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 18344
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:25:47 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "45c3b96c-69e4-4246-bdff-e21fd865ea5b"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000000e-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|85c331ec-4be18f708afb605c."
+TraceId : "85c331ec-4be18f708afb605c"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 7272
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:25:48 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 7272
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:25:57 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 7272
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:33:35 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 15452
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:33:43 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 15452
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:33:46 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "0a585c81-18cc-4dc5-a47f-5076eb0dbf34"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000004d-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|97d87171-443b32ac34d59c38."
+TraceId : "97d87171-443b32ac34d59c38"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 15452
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:34:59 CH +07:00 | Level - Warning |
+----------------------------------------------------------------------
+role : "Customer"
+EventId : { Id: 5 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "debcdfb8-d0b3-4e8a-964f-c467ad356aa8"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.EditUser (CMS_CORE_NG)"
+RequestId : "8000004f-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/6306ea03-b7c7-40ae-b650-15b80a96f1ea"
+SpanId : "|97d87173-443b32ac34d59c38."
+TraceId : "97d87173-443b32ac34d59c38"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 15452
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:34:59 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "debcdfb8-d0b3-4e8a-964f-c467ad356aa8"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.EditUser (CMS_CORE_NG)"
+RequestId : "8000004f-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/6306ea03-b7c7-40ae-b650-15b80a96f1ea"
+SpanId : "|97d87173-443b32ac34d59c38."
+TraceId : "97d87173-443b32ac34d59c38"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 15452
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:35:05 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "0a585c81-18cc-4dc5-a47f-5076eb0dbf34"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000014-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|97d87176-443b32ac34d59c38."
+TraceId : "97d87176-443b32ac34d59c38"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 15452
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:36:06 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 12532
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:36:16 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 12532
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:36:38 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "d714f8c3-052b-4c26-a286-ead7410e144e"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000042-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|3d6fb472-4bfc447da875bc78."
+TraceId : "3d6fb472-4bfc447da875bc78"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 12532
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:37:18 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "d714f8c3-052b-4c26-a286-ead7410e144e"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000048-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|3d6fb479-4bfc447da875bc78."
+TraceId : "3d6fb479-4bfc447da875bc78"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 12532
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:38:26 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000018-0007-fe00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|3d6fb471-4bfc447da875bc78."
+TraceId : "3d6fb471-4bfc447da875bc78"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 12532
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:38:29 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "d714f8c3-052b-4c26-a286-ead7410e144e"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000004c-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|3d6fb47b-4bfc447da875bc78."
+TraceId : "3d6fb47b-4bfc447da875bc78"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 12532
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:39:18 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 11400
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:39:25 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 11400
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:39:35 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "ffb1af70-37d3-4640-b1f7-201821642151"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000005b-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|a2cc1be5-404a4c008359e818."
+TraceId : "a2cc1be5-404a4c008359e818"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 11400
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:39:38 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at"
+StackTrace : "   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at FunctionalService.FunctionalSvc.SendEmailByGmailAsync(String fromEmail, String fromFullName, String subject, String messageBody, String toEmail, String toFullName, String smtpUser, String smtpPassword, String smtpHost, Int32 smtpPort, Boolean smtpSSL) in D:\C#\CMS_CORE_NG\FunctionalService\FunctionalSvc.cs:line 191"
+InnerException : null
+Source : "System.Net.Mail"
+ActionId : "ffb1af70-37d3-4640-b1f7-201821642151"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000005b-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|a2cc1be5-404a4c008359e818."
+TraceId : "a2cc1be5-404a4c008359e818"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 11400
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:39:54 CH +07:00 | Level - Warning |
+----------------------------------------------------------------------
+role : "Customer"
+EventId : { Id: 5 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "6bf6754f-7ffe-40d9-8563-ed65f4b0d035"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.EditUser (CMS_CORE_NG)"
+RequestId : "8000005f-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/6306ea03-b7c7-40ae-b650-15b80a96f1ea"
+SpanId : "|a2cc1be7-404a4c008359e818."
+TraceId : "a2cc1be7-404a4c008359e818"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 11400
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:39:55 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "6bf6754f-7ffe-40d9-8563-ed65f4b0d035"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.EditUser (CMS_CORE_NG)"
+RequestId : "8000005f-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/6306ea03-b7c7-40ae-b650-15b80a96f1ea"
+SpanId : "|a2cc1be7-404a4c008359e818."
+TraceId : "a2cc1be7-404a4c008359e818"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 11400
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:40:01 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "ffb1af70-37d3-4640-b1f7-201821642151"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000061-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|a2cc1bea-404a4c008359e818."
+TraceId : "a2cc1bea-404a4c008359e818"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 11400
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:40:03 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at"
+StackTrace : "   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at FunctionalService.FunctionalSvc.SendEmailByGmailAsync(String fromEmail, String fromFullName, String subject, String messageBody, String toEmail, String toFullName, String smtpUser, String smtpPassword, String smtpHost, Int32 smtpPort, Boolean smtpSSL) in D:\C#\CMS_CORE_NG\FunctionalService\FunctionalSvc.cs:line 191"
+InnerException : null
+Source : "System.Net.Mail"
+ActionId : "ffb1af70-37d3-4640-b1f7-201821642151"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000061-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|a2cc1bea-404a4c008359e818."
+TraceId : "a2cc1bea-404a4c008359e818"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 11400
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:40:55 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 20056
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:41:04 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 20056
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:41:31 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:41:39 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:41:45 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "1e8c4e81-0952-4b85-b0c6-bf072c5ba206"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000066-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|2b1e1fed-438ddb06b0456fc8."
+TraceId : "2b1e1fed-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:43:17 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at"
+StackTrace : "   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at FunctionalService.FunctionalSvc.SendEmailByGmailAsync(String fromEmail, String fromFullName, String subject, String messageBody, String toEmail, String toFullName, String smtpUser, String smtpPassword, String smtpHost, Int32 smtpPort, Boolean smtpSSL) in D:\C#\CMS_CORE_NG\FunctionalService\FunctionalSvc.cs:line 191"
+InnerException : null
+Source : "System.Net.Mail"
+ActionId : "1e8c4e81-0952-4b85-b0c6-bf072c5ba206"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000066-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|2b1e1fed-438ddb06b0456fc8."
+TraceId : "2b1e1fed-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 5:59:55 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "80000008-0002-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/User"
+SpanId : "|2b1e1ff5-438ddb06b0456fc8."
+TraceId : "2b1e1ff5-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:00:03 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "42782b4c-0514-46fa-bfdf-9730a08be983"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000068-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|2b1e1ff7-438ddb06b0456fc8."
+TraceId : "2b1e1ff7-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:00:03 CH +07:00 | Level - Warning |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "42782b4c-0514-46fa-bfdf-9730a08be983"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000068-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|2b1e1ff7-438ddb06b0456fc8."
+TraceId : "2b1e1ff7-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:00:03 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "42782b4c-0514-46fa-bfdf-9730a08be983"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000068-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|2b1e1ff7-438ddb06b0456fc8."
+TraceId : "2b1e1ff7-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:00:04 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'stringToEscape')"
+StackTrace : "   at System.Uri.EscapeDataString(String stringToEscape)
+   at Microsoft.AspNetCore.Http.ResponseCookies.Append(String key, String value, CookieOptions options)
+   at CookieService.CookieSvc.SetCookie(String key, String value, Nullable`1 expireTime) in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 51
+   at CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login(LoginViewModel model, String returnUrl) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\AccountController.cs:line 88"
+InnerException : null
+Source : "System.Private.Uri"
+ActionId : "42782b4c-0514-46fa-bfdf-9730a08be983"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000068-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|2b1e1ff7-438ddb06b0456fc8."
+TraceId : "2b1e1ff7-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:00:04 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "42782b4c-0514-46fa-bfdf-9730a08be983"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000068-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|2b1e1ff7-438ddb06b0456fc8."
+TraceId : "2b1e1ff7-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:00:12 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "42782b4c-0514-46fa-bfdf-9730a08be983"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "8000006a-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|2b1e1ff8-438ddb06b0456fc8."
+TraceId : "2b1e1ff8-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:00:33 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "1e8c4e81-0952-4b85-b0c6-bf072c5ba206"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000006e-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|2b1e1fff-438ddb06b0456fc8."
+TraceId : "2b1e1fff-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:00:47 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at"
+StackTrace : "   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at FunctionalService.FunctionalSvc.SendEmailByGmailAsync(String fromEmail, String fromFullName, String subject, String messageBody, String toEmail, String toFullName, String smtpUser, String smtpPassword, String smtpHost, Int32 smtpPort, Boolean smtpSSL) in D:\C#\CMS_CORE_NG\FunctionalService\FunctionalSvc.cs:line 191"
+InnerException : null
+Source : "System.Net.Mail"
+ActionId : "1e8c4e81-0952-4b85-b0c6-bf072c5ba206"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000006e-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|2b1e1fff-438ddb06b0456fc8."
+TraceId : "2b1e1fff-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:00:51 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "1e8c4e81-0952-4b85-b0c6-bf072c5ba206"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000072-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|2b1e2001-438ddb06b0456fc8."
+TraceId : "2b1e2001-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:05:16 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at"
+StackTrace : "   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at FunctionalService.FunctionalSvc.SendEmailByGmailAsync(String fromEmail, String fromFullName, String subject, String messageBody, String toEmail, String toFullName, String smtpUser, String smtpPassword, String smtpHost, Int32 smtpPort, Boolean smtpSSL) in D:\C#\CMS_CORE_NG\FunctionalService\FunctionalSvc.cs:line 191"
+InnerException : null
+Source : "System.Net.Mail"
+ActionId : "1e8c4e81-0952-4b85-b0c6-bf072c5ba206"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000072-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|2b1e2001-438ddb06b0456fc8."
+TraceId : "2b1e2001-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:06:04 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "1e8c4e81-0952-4b85-b0c6-bf072c5ba206"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000076-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|2b1e200c-438ddb06b0456fc8."
+TraceId : "2b1e200c-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:06:19 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at"
+StackTrace : "   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at FunctionalService.FunctionalSvc.SendEmailByGmailAsync(String fromEmail, String fromFullName, String subject, String messageBody, String toEmail, String toFullName, String smtpUser, String smtpPassword, String smtpHost, Int32 smtpPort, Boolean smtpSSL) in D:\C#\CMS_CORE_NG\FunctionalService\FunctionalSvc.cs:line 191"
+InnerException : null
+Source : "System.Net.Mail"
+ActionId : "1e8c4e81-0952-4b85-b0c6-bf072c5ba206"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000076-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|2b1e200c-438ddb06b0456fc8."
+TraceId : "2b1e200c-438ddb06b0456fc8"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 21472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:06:51 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 19056
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:06:58 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 19056
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:07:30 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "57c67d3c-43c9-4adb-a2a9-80a846935197"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "8000007a-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|59edd456-43003e68eabad403."
+TraceId : "59edd456-43003e68eabad403"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 19056
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:08:58 CH +07:00 | Level - Warning |
+----------------------------------------------------------------------
+role : "Customer"
+EventId : { Id: 5 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "6f6e0488-0aca-4154-9353-73436576ec91"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.EditUser (CMS_CORE_NG)"
+RequestId : "8000004d-0000-ff00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/6306ea03-b7c7-40ae-b650-15b80a96f1ea"
+SpanId : "|59edd458-43003e68eabad403."
+TraceId : "59edd458-43003e68eabad403"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 19056
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:08:59 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "6f6e0488-0aca-4154-9353-73436576ec91"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.EditUser (CMS_CORE_NG)"
+RequestId : "8000004d-0000-ff00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/edituser/6306ea03-b7c7-40ae-b650-15b80a96f1ea"
+SpanId : "|59edd458-43003e68eabad403."
+TraceId : "59edd458-43003e68eabad403"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 19056
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:09:08 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "57c67d3c-43c9-4adb-a2a9-80a846935197"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000082-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|59edd45b-43003e68eabad403."
+TraceId : "59edd45b-43003e68eabad403"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 19056
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/02/2021 6:11:00 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "57c67d3c-43c9-4adb-a2a9-80a846935197"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.UserController.ResetPassword (CMS_CORE_NG)"
+RequestId : "80000088-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/api/v1/user/ResetPassword/techhowdy"
+SpanId : "|59edd46a-43003e68eabad403."
+TraceId : "59edd46a-43003e68eabad403"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.12"
+UserName : "taida"
+ProcessId : 19056
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

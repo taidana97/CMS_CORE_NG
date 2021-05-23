@@ -1,0 +1,117 @@
+----------------------------------------------------------------------
+Timestamp - 28/11/2020 2:49:53 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 13392
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 28/11/2020 2:50:06 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 13392
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 28/11/2020 3:30:15 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "80000113-0002-f900-b63f-84710c7967bb"
+RequestPath : "/admin/home"
+SpanId : "|acd48c46-46ee2066c0514b06."
+TraceId : "acd48c46-46ee2066c0514b06"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 3572
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 28/11/2020 3:30:22 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 3572
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 28/11/2020 3:30:24 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "5a613512-d556-4bac-a20a-257b2ac03347"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000262-0000-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|acd48c4c-46ee2066c0514b06."
+TraceId : "acd48c4c-46ee2066c0514b06"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 3572
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 28/11/2020 3:30:25 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "5a613512-d556-4bac-a20a-257b2ac03347"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000115-0002-f900-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|acd48c4d-46ee2066c0514b06."
+TraceId : "acd48c4d-46ee2066c0514b06"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 3572
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 28/11/2020 3:30:30 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 3572
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

@@ -1,0 +1,2108 @@
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:26:49 CH +07:00 | Level - Warning |
+----------------------------------------------------------------------
+KeyId : 1b0920be-d4ed-4baa-b8a8-e07efae90064
+EventId : { Id: 35, Name: "NoXMLEncryptorConfiguredKeyMayBePersistedToStorageInUnencryptedForm" }
+SourceContext : "Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 16260
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:27:33 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 16260
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:27:46 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 16260
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:28:50 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "8000010d-0000-fe00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|22d487c0-4bfd4f2b21472ffb."
+TraceId : "22d487c0-4bfd4f2b21472ffb"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 16260
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:30:14 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 916
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:30:24 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 916
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:30:57 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "800000b9-0002-fa00-b63f-84710c7967bb"
+RequestPath : "/admin/home"
+SpanId : "|e7473c18-4d7f5b6f3571889f."
+TraceId : "e7473c18-4d7f5b6f3571889f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 916
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:31:13 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "b31d398e-77f2-4129-8754-56d38b845236"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000117-0000-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|e7473c26-4d7f5b6f3571889f."
+TraceId : "e7473c26-4d7f5b6f3571889f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 916
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:31:14 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "b31d398e-77f2-4129-8754-56d38b845236"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "800000ef-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|e7473c27-4d7f5b6f3571889f."
+TraceId : "e7473c27-4d7f5b6f3571889f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 916
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:31:23 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "800000bd-0002-fa00-b63f-84710c7967bb"
+RequestPath : "/Admin/Profile"
+SpanId : "|e7473c2d-4d7f5b6f3571889f."
+TraceId : "e7473c2d-4d7f5b6f3571889f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 916
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_0() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 8
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_0() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 8
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - Object reference not set to an instance of an object.Source - CMS_CORE_NG.ViewsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:32:58 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "800000f1-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/Admin/Profile"
+SpanId : "|e7473c2e-4d7f5b6f3571889f."
+TraceId : "e7473c2e-4d7f5b6f3571889f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 916
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_0() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 8
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_0() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 8
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - Object reference not set to an instance of an object.Source - CMS_CORE_NG.ViewsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:32:59 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "800000f5-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/Admin/Profile"
+SpanId : "|e7473c30-4d7f5b6f3571889f."
+TraceId : "e7473c30-4d7f5b6f3571889f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 916
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_0() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 8
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_0() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 8
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - Object reference not set to an instance of an object.Source - CMS_CORE_NG.ViewsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:33:21 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "800000f9-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/Admin/Profile"
+SpanId : "|e7473c32-4d7f5b6f3571889f."
+TraceId : "e7473c32-4d7f5b6f3571889f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 916
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CMS_CORE_NG.Areas.Admin.Views.Profile.Areas_Admin_Views_Profile_Index.<ExecuteAsync>b__100_2() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Profile\Index.cshtml:line 458
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSectionAsyncCore(String sectionName, Boolean required)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSection(String name, Boolean required)
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_1() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 49
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at CMS_CORE_NG.Areas.Admin.Views.Profile.Areas_Admin_Views_Profile_Index.<ExecuteAsync>b__100_2() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Profile\Index.cshtml:line 458
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSectionAsyncCore(String sectionName, Boolean required)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSection(String name, Boolean required)
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_1() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 49
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - Object reference not set to an instance of an object.Source - CMS_CORE_NG.ViewsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:35:54 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "800000fb-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/Admin/Profile"
+SpanId : "|e7473c34-4d7f5b6f3571889f."
+TraceId : "e7473c34-4d7f5b6f3571889f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 916
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CMS_CORE_NG.Areas.Admin.Views.Profile.Areas_Admin_Views_Profile_Index.<ExecuteAsync>b__100_2() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Profile\Index.cshtml:line 458
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSectionAsyncCore(String sectionName, Boolean required)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSection(String name, Boolean required)
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_1() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 49
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at CMS_CORE_NG.Areas.Admin.Views.Profile.Areas_Admin_Views_Profile_Index.<ExecuteAsync>b__100_2() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Profile\Index.cshtml:line 458
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSectionAsyncCore(String sectionName, Boolean required)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSection(String name, Boolean required)
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_1() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 49
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - Object reference not set to an instance of an object.Source - CMS_CORE_NG.ViewsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:35:56 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "8000014f-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Profile"
+SpanId : "|e7473c36-4d7f5b6f3571889f."
+TraceId : "e7473c36-4d7f5b6f3571889f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 916
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CMS_CORE_NG.Areas.Admin.Views.Profile.Areas_Admin_Views_Profile_Index.<ExecuteAsync>b__100_2() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Profile\Index.cshtml:line 458
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSectionAsyncCore(String sectionName, Boolean required)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSection(String name, Boolean required)
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_1() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 49
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at CMS_CORE_NG.Areas.Admin.Views.Profile.Areas_Admin_Views_Profile_Index.<ExecuteAsync>b__100_2() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Profile\Index.cshtml:line 458
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSectionAsyncCore(String sectionName, Boolean required)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSection(String name, Boolean required)
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_1() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 49
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - Object reference not set to an instance of an object.Source - CMS_CORE_NG.ViewsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:36:01 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000151-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Profile"
+SpanId : "|e7473c38-4d7f5b6f3571889f."
+TraceId : "e7473c38-4d7f5b6f3571889f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 916
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CMS_CORE_NG.Areas.Admin.Views.Profile.Areas_Admin_Views_Profile_Index.<ExecuteAsync>b__100_2() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Profile\Index.cshtml:line 458
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSectionAsyncCore(String sectionName, Boolean required)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSection(String name, Boolean required)
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_1() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 49
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at CMS_CORE_NG.Areas.Admin.Views.Profile.Areas_Admin_Views_Profile_Index.<ExecuteAsync>b__100_2() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Profile\Index.cshtml:line 458
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSectionAsyncCore(String sectionName, Boolean required)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSection(String name, Boolean required)
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_1() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 49
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - Object reference not set to an instance of an object.Source - CMS_CORE_NG.ViewsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:40:12 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 3876
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:40:20 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 3876
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:41:04 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "800000be-0001-fb00-b63f-84710c7967bb"
+RequestPath : "/Admin/Profile"
+SpanId : "|1a49645f-4866a96a69e02606."
+TraceId : "1a49645f-4866a96a69e02606"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 3876
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at CMS_CORE_NG.Areas.Admin.Views.Profile.Areas_Admin_Views_Profile_Index.<ExecuteAsync>b__100_2() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Profile\Index.cshtml:line 458
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSectionAsyncCore(String sectionName, Boolean required)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSection(String name, Boolean required)
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_1() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 49
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at CMS_CORE_NG.Areas.Admin.Views.Profile.Areas_Admin_Views_Profile_Index.<ExecuteAsync>b__100_2() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Profile\Index.cshtml:line 458
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSectionAsyncCore(String sectionName, Boolean required)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSection(String name, Boolean required)
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.<ExecuteAsync>b__20_1() in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Views\Shared\_ContentLayout.cshtml:line 49
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at CMS_CORE_NG.Areas.Admin.Views.Shared.Areas_Admin_Views_Shared__ContentLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - Object reference not set to an instance of an object.Source - CMS_CORE_NG.ViewsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:46:13 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 22132
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:46:21 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 22132
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:49:08 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 8476
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:49:17 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 8476
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:57:03 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "bbcb3b85-485b-4969-8277-009aefabed3c"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "80000123-0004-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|832d07a5-4dbf2bfb6f9f7267."
+TraceId : "832d07a5-4dbf2bfb6f9f7267"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 8476
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 4:57:31 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "bbcb3b85-485b-4969-8277-009aefabed3c"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "80000124-0004-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|832d07a6-4dbf2bfb6f9f7267."
+TraceId : "832d07a6-4dbf2bfb6f9f7267"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 8476
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:02:14 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 20748
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:02:22 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 20748
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:05:52 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 8716
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:06:00 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 8716
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:06:07 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "d94618db-a7bf-47a9-b02a-701159062d66"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "8000000e-0001-fa00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|4b275d41-4ef20f1aa4212e0a."
+TraceId : "4b275d41-4ef20f1aa4212e0a"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 8716
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:06:33 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "d94618db-a7bf-47a9-b02a-701159062d66"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "8000000f-0001-fa00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|4b275d43-4ef20f1aa4212e0a."
+TraceId : "4b275d43-4ef20f1aa4212e0a"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 8716
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:06:34 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "d94618db-a7bf-47a9-b02a-701159062d66"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "80000010-0001-fa00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|4b275d44-4ef20f1aa4212e0a."
+TraceId : "4b275d44-4ef20f1aa4212e0a"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 8716
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:06:44 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "d94618db-a7bf-47a9-b02a-701159062d66"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "80000011-0001-fa00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|4b275d45-4ef20f1aa4212e0a."
+TraceId : "4b275d45-4ef20f1aa4212e0a"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 8716
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:06:55 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "d94618db-a7bf-47a9-b02a-701159062d66"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "80000012-0001-fa00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|4b275d46-4ef20f1aa4212e0a."
+TraceId : "4b275d46-4ef20f1aa4212e0a"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 8716
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:23 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "b31b099b-aa58-4c58-afdf-8b4028edfd38"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "80000014-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|f7e065a0-4a630998f8e6c89f."
+TraceId : "f7e065a0-4a630998f8e6c89f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:25 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "b31b099b-aa58-4c58-afdf-8b4028edfd38"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "80000015-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|f7e065a2-4a630998f8e6c89f."
+TraceId : "f7e065a2-4a630998f8e6c89f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:26 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "b31b099b-aa58-4c58-afdf-8b4028edfd38"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "80000016-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|f7e065a3-4a630998f8e6c89f."
+TraceId : "f7e065a3-4a630998f8e6c89f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:26 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "b31b099b-aa58-4c58-afdf-8b4028edfd38"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "80000017-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|f7e065a4-4a630998f8e6c89f."
+TraceId : "f7e065a4-4a630998f8e6c89f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:27 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "b31b099b-aa58-4c58-afdf-8b4028edfd38"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "80000018-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|f7e065a5-4a630998f8e6c89f."
+TraceId : "f7e065a5-4a630998f8e6c89f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:28 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "b31b099b-aa58-4c58-afdf-8b4028edfd38"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "80000019-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|f7e065a6-4a630998f8e6c89f."
+TraceId : "f7e065a6-4a630998f8e6c89f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:29 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "b31b099b-aa58-4c58-afdf-8b4028edfd38"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "8000001a-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|f7e065a7-4a630998f8e6c89f."
+TraceId : "f7e065a7-4a630998f8e6c89f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:30 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:30 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "b31b099b-aa58-4c58-afdf-8b4028edfd38"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "8000001b-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|f7e065a8-4a630998f8e6c89f."
+TraceId : "f7e065a8-4a630998f8e6c89f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:31 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "b31b099b-aa58-4c58-afdf-8b4028edfd38"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "8000001c-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|f7e065a9-4a630998f8e6c89f."
+TraceId : "f7e065a9-4a630998f8e6c89f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:32 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "b31b099b-aa58-4c58-afdf-8b4028edfd38"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "8000001d-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|f7e065aa-4a630998f8e6c89f."
+TraceId : "f7e065aa-4a630998f8e6c89f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:38 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:39 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "b31b099b-aa58-4c58-afdf-8b4028edfd38"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "8000001e-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|f7e065ab-4a630998f8e6c89f."
+TraceId : "f7e065ab-4a630998f8e6c89f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:40 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "b31b099b-aa58-4c58-afdf-8b4028edfd38"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "8000001f-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|f7e065ac-4a630998f8e6c89f."
+TraceId : "f7e065ac-4a630998f8e6c89f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:40 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "b31b099b-aa58-4c58-afdf-8b4028edfd38"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "80000020-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|f7e065ad-4a630998f8e6c89f."
+TraceId : "f7e065ad-4a630998f8e6c89f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:08:42 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'protectedData')"
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at UserService.UserSvc.GetLoggedInUserId() in D:\C#\CMS_CORE_NG\UserService\UserSvc.cs:line 482"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection.Abstractions"
+ActionId : "b31b099b-aa58-4c58-afdf-8b4028edfd38"
+ActionName : "CMS_CORE_NG.Controllers.Api.v1.ProfileController.GetUserProfile (CMS_CORE_NG)"
+RequestId : "80000021-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/api/v1/Profile/GetUserProfile/admin"
+SpanId : "|f7e065ae-4a630998f8e6c89f."
+TraceId : "f7e065ae-4a630998f8e6c89f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15948
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:11:15 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:11:22 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:11:43 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "80000024-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/admin/home"
+SpanId : "|1cb3cc38-4a03450b225891f5."
+TraceId : "1cb3cc38-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:55 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "800000fb-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc6f-4a03450b225891f5."
+TraceId : "1cb3cc6f-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:55 CH +07:00 | Level - Warning |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "800000fb-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc6f-4a03450b225891f5."
+TraceId : "1cb3cc6f-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:56 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "800000fb-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc6f-4a03450b225891f5."
+TraceId : "1cb3cc6f-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:56 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'stringToEscape')"
+StackTrace : "   at System.Uri.EscapeDataString(String stringToEscape)
+   at Microsoft.AspNetCore.Http.ResponseCookies.Append(String key, String value, CookieOptions options)
+   at CookieService.CookieSvc.SetCookie(String key, String value, Nullable`1 expireTime) in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 51
+   at CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login(LoginViewModel model, String returnUrl) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\AccountController.cs:line 88"
+InnerException : null
+Source : "System.Private.Uri"
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "800000fb-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc6f-4a03450b225891f5."
+TraceId : "1cb3cc6f-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:56 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "800000fb-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc6f-4a03450b225891f5."
+TraceId : "1cb3cc6f-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:56 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000042-0003-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc70-4a03450b225891f5."
+TraceId : "1cb3cc70-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:56 CH +07:00 | Level - Warning |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000042-0003-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc70-4a03450b225891f5."
+TraceId : "1cb3cc70-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:56 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000042-0003-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc70-4a03450b225891f5."
+TraceId : "1cb3cc70-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:56 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'stringToEscape')"
+StackTrace : "   at System.Uri.EscapeDataString(String stringToEscape)
+   at Microsoft.AspNetCore.Http.ResponseCookies.Append(String key, String value, CookieOptions options)
+   at CookieService.CookieSvc.SetCookie(String key, String value, Nullable`1 expireTime) in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 51
+   at CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login(LoginViewModel model, String returnUrl) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\AccountController.cs:line 88"
+InnerException : null
+Source : "System.Private.Uri"
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000042-0003-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc70-4a03450b225891f5."
+TraceId : "1cb3cc70-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:56 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000042-0003-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc70-4a03450b225891f5."
+TraceId : "1cb3cc70-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:58 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000086-0007-fc00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc71-4a03450b225891f5."
+TraceId : "1cb3cc71-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:58 CH +07:00 | Level - Warning |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000086-0007-fc00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc71-4a03450b225891f5."
+TraceId : "1cb3cc71-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:58 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000086-0007-fc00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc71-4a03450b225891f5."
+TraceId : "1cb3cc71-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:58 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'stringToEscape')"
+StackTrace : "   at System.Uri.EscapeDataString(String stringToEscape)
+   at Microsoft.AspNetCore.Http.ResponseCookies.Append(String key, String value, CookieOptions options)
+   at CookieService.CookieSvc.SetCookie(String key, String value, Nullable`1 expireTime) in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 51
+   at CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login(LoginViewModel model, String returnUrl) in D:\C#\CMS_CORE_NG\CMS_CORE_NG\Areas\Admin\Controllers\AccountController.cs:line 88"
+InnerException : null
+Source : "System.Private.Uri"
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000086-0007-fc00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc71-4a03450b225891f5."
+TraceId : "1cb3cc71-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:12:58 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000086-0007-fc00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc71-4a03450b225891f5."
+TraceId : "1cb3cc71-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:13:21 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "9f87f81e-5f39-4e47-a334-c62975ef5b2a"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000069-0005-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|1cb3cc72-4a03450b225891f5."
+TraceId : "1cb3cc72-4a03450b225891f5"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 15624
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:15:24 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19064
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:15:31 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "The payload was invalid."
+StackTrace : "   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at FiltersService.AdminAuthenticationHandler.HandleAuthenticateAsync() in D:\C#\CMS_CORE_NG\FiltersService\AdminAuthenticationHandler.cs:line 137"
+InnerException : null
+Source : "Microsoft.AspNetCore.DataProtection"
+RequestId : "80000050-0006-fc00-b63f-84710c7967bb"
+RequestPath : "/Admin/Profile"
+SpanId : "|d95177e3-4a1ad539ae8a2360."
+TraceId : "d95177e3-4a1ad539ae8a2360"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19064
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:15:32 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19064
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:15:42 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "8000010c-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/admin/home"
+SpanId : "|d95177ed-4a1ad539ae8a2360."
+TraceId : "d95177ed-4a1ad539ae8a2360"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19064
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:15:57 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "d1f27d2b-8f71-434b-b452-907d91011a27"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000110-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|d95177f1-4a1ad539ae8a2360."
+TraceId : "d95177f1-4a1ad539ae8a2360"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19064
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:17:22 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 14696
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:17:31 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 14696
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:19:15 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000104-0000-ff00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|7c5fc8b7-46492499793088af."
+TraceId : "7c5fc8b7-46492499793088af"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 14696
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:25:31 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 1052
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:25:40 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 1052
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:27:25 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:27:33 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:28:46 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "8000010a-0000-ff00-b63f-84710c7967bb"
+RequestPath : "/Admin/Profile"
+SpanId : "|b17125e2-42d5b449bf59ec59."
+TraceId : "b17125e2-42d5b449bf59ec59"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:29:00 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "a8b5df18-968d-43ee-b58e-79c17aff6846"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "800000c2-0006-f800-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|b17125f3-42d5b449bf59ec59."
+TraceId : "b17125f3-42d5b449bf59ec59"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19472
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:30:23 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 3300
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:30:33 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 3300
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:32:10 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 22384
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 22/11/2020 5:32:19 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 22384
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

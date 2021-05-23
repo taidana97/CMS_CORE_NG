@@ -13,6 +13,7 @@ using LoggingService;
 using Microsoft.Extensions.DependencyInjection;
 using DataService;
 using FunctionalService;
+using CountryService;
 
 namespace CMS_CORE_NG
 {
@@ -33,8 +34,9 @@ namespace CMS_CORE_NG
                     var context = services.GetRequiredService<ApplicationDbContext>();
                     var dpContext = services.GetRequiredService<DataProtectionKeysContext>();
                     var functionSvc = services.GetRequiredService<IFunctionalSvc>();
+                    var countrySvc = services.GetRequiredService<ICountrySvc>();
 
-                    DbContextInitializer.Initialize(dpContext, context, functionSvc).Wait();
+                    DbContextInitializer.Initialize(dpContext, context, functionSvc, countrySvc).Wait();
                 }
                 catch (Exception ex)
                 {

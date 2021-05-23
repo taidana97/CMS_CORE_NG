@@ -1,0 +1,488 @@
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:00:58 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 6504
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:01:12 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 6504
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:02:56 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "cef2ce3b-9760-48a4-a916-ffd1bed5e7e0"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "8000015a-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|8c79bef9-4ec1dc80a0bee7e3."
+TraceId : "8c79bef9-4ec1dc80a0bee7e3"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 6504
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:05:27 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "cef2ce3b-9760-48a4-a916-ffd1bed5e7e0"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "8000003f-0002-fe00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|8c79bf0e-4ec1dc80a0bee7e3."
+TraceId : "8c79bf0e-4ec1dc80a0bee7e3"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 6504
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:11:52 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 14896
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:11:59 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 14896
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:12:35 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000025-0003-fd00-b63f-84710c7967bb"
+RequestPath : "//api/v1/Country/GetCountries"
+SpanId : "|1b0a741d-42e001c7ccd7e08f."
+TraceId : "1b0a741d-42e001c7ccd7e08f"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 14896
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.Net.Http.HttpRequestException: Failed to proxy the request to http://api/v1/Country/GetCountries, because the request to the proxy target failed. Check that the proxy target server is running and accepting requests to http://localhost:63344/.
+
+The underlying exception message was 'No such host is known.'.Check the InnerException for more details.
+ ---> System.Net.Http.HttpRequestException: No such host is known.
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - Failed to proxy the request to http://api/v1/Country/GetCountries, because the request to the proxy target failed. Check that the proxy target server is running and accepting requests to http://localhost:63344/.
+
+The underlying exception message was 'No such host is known.'.Check the InnerException for more details.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - System.Net.Http.HttpRequestException: No such host is known.
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:14:22 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 3640
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:14:29 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 3640
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:16:19 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 11028
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 4:16:26 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 11028
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 8:03:14 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 21832
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 8:03:24 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 21832
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 8:04:11 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "781fb3bf-3add-4eb1-afcf-17c55c983f81"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "8000003f-0006-fb00-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|dd4f7c76-4d8df04272eb6b93."
+TraceId : "dd4f7c76-4d8df04272eb6b93"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 21832
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 8:04:38 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+ViewName : "Index"
+SearchedViewLocations : ["/Areas/Admin/Views/SiteSettings/Index.cshtml", "/Areas/Admin/Views/Shared/Index.cshtml", "/Views/Shared/Index.cshtml", "/Pages/Shared/Index.cshtml"]
+EventId : { Id: 3, Name: "ViewNotFound" }
+SourceContext : "Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor"
+ActionId : "ac8212c1-1da1-4a1b-80fd-d404e932a19b"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.SiteSettingsController.Index (CMS_CORE_NG)"
+RequestId : "80000042-0001-fa00-b63f-84710c7967bb"
+RequestPath : "/Admin/SiteSettings"
+SpanId : "|dd4f7c78-4d8df04272eb6b93."
+TraceId : "dd4f7c78-4d8df04272eb6b93"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 21832
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 8:04:38 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000042-0001-fa00-b63f-84710c7967bb"
+RequestPath : "/Admin/SiteSettings"
+SpanId : "|dd4f7c78-4d8df04272eb6b93."
+TraceId : "dd4f7c78-4d8df04272eb6b93"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 21832
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Areas/Admin/Views/SiteSettings/Index.cshtml
+/Areas/Admin/Views/Shared/Index.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The view 'Index' was not found. The following locations were searched:
+/Areas/Admin/Views/SiteSettings/Index.cshtml
+/Areas/Admin/Views/Shared/Index.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.cshtmlSource - Microsoft.AspNetCore.Mvc.ViewFeaturesInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 8:52:18 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 23056
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 8:52:25 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 23056
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 8:56:26 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 7240
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 8:56:35 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 7240
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 8:58:41 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 17712
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 8:58:50 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 17712
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 9:05:13 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "80000041-0006-fb00-b63f-84710c7967bb"
+RequestPath : "/Admin/SiteSettings"
+SpanId : "|4e947f86-427b530118c908fc."
+TraceId : "4e947f86-427b530118c908fc"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 22120
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 9:05:20 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 22120
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 9:05:29 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 22120
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 24/11/2020 9:05:33 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in D:\C#\CMS_CORE_NG\CookieService\CookieSvc.cs:line 92"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "93853e68-3350-4fa4-a5eb-e0a7ec35ecaa"
+ActionName : "CMS_CORE_NG.Areas.Admin.Controllers.AccountController.Login (CMS_CORE_NG)"
+RequestId : "80000032-0002-f900-b63f-84710c7967bb"
+RequestPath : "/Admin/Account/Login"
+SpanId : "|4e947f89-427b530118c908fc."
+TraceId : "4e947f89-427b530118c908fc"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 22120
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

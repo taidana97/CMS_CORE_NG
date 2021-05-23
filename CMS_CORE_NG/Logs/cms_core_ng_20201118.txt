@@ -1,0 +1,159 @@
+----------------------------------------------------------------------
+Timestamp - 18/11/2020 8:15:46 CH +07:00 | Level - Warning |
+----------------------------------------------------------------------
+KeyId : c7aec4d0-1ae4-4295-885c-81a07a04067e
+EventId : { Id: 35, Name: "NoXMLEncryptorConfiguredKeyMayBePersistedToStorageInUnencryptedForm" }
+SourceContext : "Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19800
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/11/2020 8:20:13 CH +07:00 | Level - Warning |
+----------------------------------------------------------------------
+KeyId : bc4a1010-1666-454f-a20c-4468dcaee7cd
+EventId : { Id: 35, Name: "NoXMLEncryptorConfiguredKeyMayBePersistedToStorageInUnencryptedForm" }
+SourceContext : "Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19464
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/11/2020 8:20:22 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19464
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/11/2020 8:20:34 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19464
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/11/2020 8:25:15 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19240
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/11/2020 8:25:25 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19240
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/11/2020 8:26:25 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "800000a0-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/admin/home"
+SpanId : "|b65888ee-4b31d4f8d8e5a24a."
+TraceId : "b65888ee-4b31d4f8d8e5a24a"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19240
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/11/2020 8:26:25 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "800000a2-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/admin/home"
+SpanId : "|b65888ef-4b31d4f8d8e5a24a."
+TraceId : "b65888ef-4b31d4f8d8e5a24a"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 19240
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/11/2020 8:31:07 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 17856
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/11/2020 8:31:17 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+SourceContext : "Microsoft.AspNetCore.SpaServices"
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 17856
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 18/11/2020 8:31:35 CH +07:00 | Level - Error |
+----------------------------------------------------------------------
+RequestId : "8000004e-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/admin/home"
+SpanId : "|4ca43fd6-45d6d47ff2da18dd."
+TraceId : "4ca43fd6-45d6d47ff2da18dd"
+ParentId : ""
+Application : "CMS_CORE_NG"
+MachineName : "DESKTOP-62HPP6C"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.16299.0"
+Version : "3.1.7"
+UserName : "taida"
+ProcessId : 17856
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

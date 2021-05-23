@@ -14,7 +14,9 @@
 
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.10" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0">
       <PrivateAssets>all</PrivateAssets>
@@ -32,16 +34,23 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ActivityService\ActivityService.csproj" />
+    <ProjectReference Include="..\AttributeService\AttributeService.csproj" />
+    <ProjectReference Include="..\AuthService\AuthService.csproj" />
+    <ProjectReference Include="..\BackendService\BackendService.csproj" />
+    <ProjectReference Include="..\CookieService\CookieService.csproj" />
+    <ProjectReference Include="..\CountryService\CountryService.csproj" />
+    <ProjectReference Include="..\DashboardService\DashboardService.csproj" />
     <ProjectReference Include="..\DataService\DataService.csproj" />
+    <ProjectReference Include="..\EmailService\EmailService.csproj" />
+    <ProjectReference Include="..\FiltersService\FiltersService.csproj" />
     <ProjectReference Include="..\LoggingService\LoggingService.csproj" />
+    <ProjectReference Include="..\RoleService\RoleService.csproj" />
+    <ProjectReference Include="..\UserService\UserService.csproj" />
+    <ProjectReference Include="..\WritableOptionsService\WritableOptionsService.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Views\EmailSettings\" />
-    <Folder Include="Areas\Admin\Views\UserRole\" />
-    <Folder Include="Areas\Admin\Views\SiteSettings\" />
-    <Folder Include="Areas\Admin\Views\User\" />
-    <Folder Include="Areas\Admin\Views\Profile\" />
     <Folder Include="wwwroot\fonts\" />
   </ItemGroup>
 

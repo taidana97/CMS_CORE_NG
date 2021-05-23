@@ -11,4 +11,10 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataService\DataService.csproj" />
+    <ProjectReference Include="..\LoggingService\LoggingService.csproj" />
+    <ProjectReference Include="..\ModelService\ModelService.csproj" />
+  </ItemGroup>
+
 </Project>
