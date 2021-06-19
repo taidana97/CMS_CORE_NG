@@ -15,10 +15,15 @@ import { ValidateCodeComponent } from './validate-code/validate-code.component';
 import { UserComponent } from './user/user.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 =======
 >>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
+=======
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+>>>>>>> 450a87848e75769b635f5c1f59a126e3ebe82c50
 
 @NgModule({
   declarations: [
@@ -34,10 +39,14 @@ import { ReactiveFormsModule } from '@angular/forms';
     ValidateCodeComponent,
     UserComponent,
 <<<<<<< HEAD
+<<<<<<< HEAD
     NavMenuComponent,
 =======
     NavMenuComponent
 >>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
+=======
+    NavMenuComponent,
+>>>>>>> 450a87848e75769b635f5c1f59a126e3ebe82c50
   ],
   imports: [
     BrowserModule,

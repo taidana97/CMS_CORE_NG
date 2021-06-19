@@ -4,10 +4,14 @@
   "compilerOptions": {
     "outDir": "./out-tsc/app",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "types": ["jquery", "jqueryui", "bootstrap"]
 =======
     "types": ["jquery"]
 >>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
+=======
+    "types": ["jquery", "jqueryui", "bootstrap"]
+>>>>>>> 450a87848e75769b635f5c1f59a126e3ebe82c50
   },
   "files": ["src/main.ts", "src/polyfills.ts"],
   "include": ["src/**/*.d.ts"]
