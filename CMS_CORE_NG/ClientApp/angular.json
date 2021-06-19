@@ -29,22 +29,14 @@
             ],
             "styles": [
               "src/styles.css",
-<<<<<<< HEAD
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "./node_modules/jquery-ui-dist/jquery-ui.min.css"
-=======
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
->>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/popper.js/dist/umd/popper.min.js",
-<<<<<<< HEAD
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
               "./node_modules/jquery-ui-dist/jquery-ui.min.js"
-=======
-              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
->>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
             ]
           },
           "configurations": {

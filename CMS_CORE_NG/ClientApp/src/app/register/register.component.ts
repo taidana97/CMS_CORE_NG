@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-<<<<<<< HEAD
 import {
   FormBuilder,
   FormControl,
@@ -14,13 +13,10 @@ import { Country } from '../interfaces/country';
 import { AccountService } from '../services/account.service';
 import { ValidatorService } from '../services/common/validator.service';
 import { CountryService } from '../services/country.service';
-=======
->>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
 
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
-<<<<<<< HEAD
   styleUrls: ['./register.component.css'],
 })
 export class RegisterComponent implements OnInit {
@@ -134,24 +130,11 @@ export class RegisterComponent implements OnInit {
     this.modelTitle = 'Registration Error';
     this.modelMessage = 'Your registration was unsuccessful';
     $('#errorModel').modal('show');
-=======
-  styleUrls: ['./register.component.css']
-})
-export class RegisterComponent implements OnInit {
-
-  imageUrl: string = '/assets/images/bg-register.jpeg';
-
-  constructor() { }
-
-  ngOnInit(): void {
-    this.setbackgroundImage();
->>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
   }
 
   setbackgroundImage() {
     $('body').css({
       'background-image': 'url(' + this.imageUrl + ')',
-<<<<<<< HEAD
       'background-size': 'cover',
     });
   }
@@ -166,54 +149,48 @@ export class RegisterComponent implements OnInit {
   onSubmit(): void {
     this.isRegistrationInProcess = true;
     let userDetails = this.registerForm.value;
-    this.accountService
-      .register(
-        userDetails.username,
-        userDetails.firstname,
-        userDetails.lastname,
-        userDetails.password,
-        userDetails.email,
-        userDetails.country,
-        userDetails.phone,
-        userDetails.gender,
-        userDetails.dob,
-        userDetails.terms
-      )
-      .subscribe((result) => {
-        if (result.message == 'Registration Successful') {
-          let timerInterval: NodeJS.Timeout;
-          Swal.fire({
-            title: 'Registration was Successful!',
-            html: 'Please check your email for verification email.<br>Redirecting to login page <b></b>.',
-            timer: 10000,
-            allowOutsideClick: false,
-            onBeforeOpen: () => {
-              Swal.showLoading();
+    // this.accountService
+    //   .register(
+    //     userDetails.username,
+    //     userDetails.firstname,
+    //     userDetails.lastname,
+    //     userDetails.password,
+    //     userDetails.email,
+    //     userDetails.country,
+    //     userDetails.phone,
+    //     userDetails.gender,
+    //     userDetails.dob,
+    //     userDetails.terms
+    //   )
+    //   .subscribe((result) => {
+    //     if (result.message == 'Registration Successful') {
+    //       let timerInterval: NodeJS.Timeout;
+    //       Swal.fire({
+    //         title: 'Registration was Successful!',
+    //         html: 'Please check your email for verification email.<br>Redirecting to login page <b></b>.',
+    //         timer: 10000,
+    //         allowOutsideClick: false,
+    //         onBeforeOpen: () => {
+    //           Swal.showLoading();
 
-              timerInterval = setInterval(() => {
-                var textContentSwal =
-                  Swal.getContent()?.querySelector('b')?.textContent;
-                var getTimerLeft: number = Swal.getTimerLeft()!;
+    //           timerInterval = setInterval(() => {
+    //             var textContentSwal =
+    //               Swal.getContent()?.querySelector('b')?.textContent;
+    //             var getTimerLeft: number = Swal.getTimerLeft()!;
 
-                textContentSwal = String((getTimerLeft / 1000).toFixed(0));
-              }, 100);
-            },
-            onClose: () => {
-              clearInterval(timerInterval);
-            },
-          }).then((r) => {
-            Swal.stopTimer();
-            this.router.navigate(['/login']);
-          });
+    //             textContentSwal = String((getTimerLeft / 1000).toFixed(0));
+    //           }, 100);
+    //         },
+    //         onClose: () => {
+    //           clearInterval(timerInterval);
+    //         },
+    //       }).then((r) => {
+    //         Swal.stopTimer();
+    //         this.router.navigate(['/login']);
+    //       });
 
-          this.isRegistrationInProcess = false;
-        }
-      });
+    //       this.isRegistrationInProcess = false;
+    //     }
+    //   });
   }
-=======
-      'background-size': 'cover'
-    });
-  }
-
->>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
 }
