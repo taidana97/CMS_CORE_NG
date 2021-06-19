@@ -3,7 +3,11 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
+<<<<<<< HEAD
     "types": ["jquery", "jqueryui", "bootstrap"]
+=======
+    "types": ["jquery"]
+>>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
   },
   "files": ["src/main.ts", "src/polyfills.ts"],
   "include": ["src/**/*.d.ts"]

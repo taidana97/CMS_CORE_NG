@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+<<<<<<< HEAD
 import {
   FormBuilder,
   FormControl,
@@ -13,10 +14,13 @@ import { Country } from '../interfaces/country';
 import { AccountService } from '../services/account.service';
 import { ValidatorService } from '../services/common/validator.service';
 import { CountryService } from '../services/country.service';
+=======
+>>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
 
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
+<<<<<<< HEAD
   styleUrls: ['./register.component.css'],
 })
 export class RegisterComponent implements OnInit {
@@ -130,11 +134,24 @@ export class RegisterComponent implements OnInit {
     this.modelTitle = 'Registration Error';
     this.modelMessage = 'Your registration was unsuccessful';
     $('#errorModel').modal('show');
+=======
+  styleUrls: ['./register.component.css']
+})
+export class RegisterComponent implements OnInit {
+
+  imageUrl: string = '/assets/images/bg-register.jpeg';
+
+  constructor() { }
+
+  ngOnInit(): void {
+    this.setbackgroundImage();
+>>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
   }
 
   setbackgroundImage() {
     $('body').css({
       'background-image': 'url(' + this.imageUrl + ')',
+<<<<<<< HEAD
       'background-size': 'cover',
     });
   }
@@ -193,4 +210,10 @@ export class RegisterComponent implements OnInit {
         }
       });
   }
+=======
+      'background-size': 'cover'
+    });
+  }
+
+>>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
 }

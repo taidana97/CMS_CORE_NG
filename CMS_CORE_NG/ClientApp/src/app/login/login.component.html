@@ -6,7 +6,11 @@
         <h3>Sign In</h3>
       </div>
       <div class="card-body">
+<<<<<<< HEAD
         <form>
+=======
+        <form [formGroup]="insertForm" (ngSubmit)="onSubmit()">
+>>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
           <div class="input-group form-group">
             <div class="input-group-prepend">
               <span class="input-group-text">
@@ -38,6 +42,19 @@
                    value="Login"
                    class="btn float-right login_btn" />
           </div>
+<<<<<<< HEAD
+=======
+          <div id="errors">
+            <div *ngIf="Username.touched && Username.errors"
+                 class="errorMessage">
+              <span *ngIf="Username.hasError('required')">Username is required.</span>
+            </div>
+            <div *ngIf="Password.touched && Password.errors"
+                 class="errorMessage">
+              <span *ngIf="Password.hasError('required')">Password is required.</span>
+            </div>
+          </div>
+>>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
         </form>
       </div>
       <div class="card-footer">
