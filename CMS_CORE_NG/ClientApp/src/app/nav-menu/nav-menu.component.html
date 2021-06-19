@@ -27,8 +27,15 @@
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['/contact-us']">Contact</a>
         </li>
+<<<<<<< HEAD
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle"
+=======
+        <li class="nav-item dropdown"
+            *ngIf="LoginStatus$ | async as LoginStatus">
+          <a class="nav-link dropdown-toggle"
+             *ngIf="LoginStatus.valueOf()"
+>>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
              href="javascript:void(0)"
              id="navbarDropdownMenuLink"
              role="button"
@@ -46,21 +53,41 @@
             <a class="dropdown-item" href="#">Protected Link #5</a>
           </div>
         </li>
+<<<<<<< HEAD
         <li class="nav-item">
           <div class="btn-group" role="group" aria-label="signin">
             <button type="button"
                     class="btn btn-outline-success"
                     [routerLink]="['/register']">
+=======
+        <li class="nav-item"
+            *ngIf="!(LoginStatus$ | async) as LoginStatus">
+          <div class="btn-group" role="group" aria-label="signin">
+            <button type="button"
+                    class="btn btn-outline-success"
+                    [routerLink]="['/register']"
+                    *ngIf="LoginStatus">
+>>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
               Register
             </button>
             <button type="button"
                     class="btn btn-outline-success"
+<<<<<<< HEAD
                     [routerLink]="['/login']">
+=======
+                    [routerLink]="['/login']"
+                    *ngIf="LoginStatus">
+>>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
               Login
             </button>
           </div>
         </li>
+<<<<<<< HEAD
         <li class="nav-item">
+=======
+        <li class="nav-item"
+            *ngIf="LoginStatus$ | async as LoginStatus">
+>>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
             <div class="topbar-divider d-none d-sm-block"></div>
@@ -72,11 +99,19 @@
                  role="button"
                  data-toggle="dropdown"
                  aria-haspopup="true"
+<<<<<<< HEAD
                  aria-expanded="false">
                  <!--*ngIf="Username$ | async as UserName">-->
                 <span class="mr-2 d-none d-lg-inline text-gray-600 medium"></span>
                 <img class="img-profile rounded-circle"src="" />
                 
+=======
+                 aria-expanded="false"
+                 *ngIf="Username$ | async as UserName">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 medium"></span>
+                <img class="img-profile rounded-circle"src="" />
+                {{ UserName | titlecase }}
+>>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -98,7 +133,12 @@
                 </a>
                 <div class="dropdown-divider"></div>
                 <div class="p-1">
+<<<<<<< HEAD
                   <button class="btn btn-warning w-100 mt-1">
+=======
+                  <button class="btn btn-warning w-100 mt-1"
+                          (click)="onLogout()">
+>>>>>>> 3fce1492d26f4df0131e093a19ae9572bb1420be
                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                     Logout
                   </button>
